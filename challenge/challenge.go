@@ -57,7 +57,7 @@ func PerformChallenge(maxNumber int) (resultNumber []int) {
 
 			}
 
-		} else if len(digits) > 4 {
+		} else if len(digits) > maxPossibilities {
 
 			digits = ""
 
